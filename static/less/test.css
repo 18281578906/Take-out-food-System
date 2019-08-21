@@ -1,0 +1,18 @@
+.content {
+  width: 100px;
+  border: 30px solid red;
+  /*运算*/
+  height: 100px;
+  background-color: #000;
+}
+.content .select {
+  color: #fff;
+}
+.content:after {
+  content: '';
+}
+@media (min-width:768px) {
+  .content {
+    background-color: aqua;
+  }
+}

@@ -1,0 +1,91 @@
+{
+    "name": "shopdata",
+    "shop": [
+
+        {
+            "shopId": "001",
+            "shopName": "张姐烤肉",
+            "img": "../../../static/img/shop/shop1.jpg",
+            "shopType": "炒菜",
+            "xinyu": 5,
+            "send": "快递/自提",
+            "promise": "保证票",
+            "zhuan": "糕点专送"
+        },
+        {
+            "shopId": "002",
+            "shopName": "吃得起(川菜)",
+            "img": "../../../static/img/shop/shop2.jpg",
+            "shopType": "炒菜",
+            "xinyu": 5,
+            "send": "快递/自提",
+            "promise": "保证票",
+            "zhuan": "糕点专送"
+        },
+        {
+            "shopId": "003",
+            "shopName": "蜜雪冰城",
+            "img": "../../../static/img/shop/shop3.jpg",
+            "shopType": "饮料",
+            "xinyu": 5,
+            "send": "快递/自提",
+            "promise": "保证票",
+            "zhuan": "糕点专送"
+        },
+        {
+            "shopId": "004",
+            "shopName": "乡锅里辣",
+            "img": "../../../static/img/shop/shop4.jpg",
+            "shopType": "炒菜",
+            "xinyu": 5,
+            "send": "快递/自提",
+            "promise": "保证票",
+            "zhuan": "糕点专送"
+        },
+
+        {
+            "shopId": "005",
+            "shopName": "施小厨",
+            "img": "../../../static/img/shop/shop5.jpg",
+            "shopType": "炒菜",
+            "xinyu": 5,
+            "send": "快递/自提",
+            "promise": "保证票",
+            "zhuan": "糕点专送"
+        },
+        {
+            "shopId": "006",
+            "shopName": "北街米线",
+            "img": "../../../static/img/shop/shop6.jpg",
+            "shopType": "小吃",
+            "xinyu": 5,
+            "send": "快递/自提",
+            "promise": "保证票",
+            "zhuan": "糕点专送"
+        },
+        {
+            "shopId": "007",
+            "shopName": "那么大鸡排",
+            "img": "../../../static/img/shop/shop7.jpg",
+            "shopType": "小吃",
+            "xinyu": 5,
+            "send": "快递/自提",
+            "promise": "保证票",
+            "zhuan": "糕点专送"
+        },
+        {
+            "shopId": "008",
+            "shopName": "韩厨 黑椒牛排套餐",
+            "img": "../../../static/img/shop/shop8.jpg",
+            "shopType": "炒菜",
+            "xinyu": 5,
+            "send": "快递/自提",
+            "promise": "保证票",
+            "zhuan": "糕点专送"
+        }
+
+
+    ]
+
+
+}

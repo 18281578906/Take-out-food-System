@@ -1,0 +1,27 @@
+@bg:#000;
+@fontColor:#fff;
+@border:1px;
+@min768:~"(min-width:768px)";//转义字符
+
+.content{
+    @border:10px;//作用域
+    width: 100px;
+    border: @border*3 solid red;/*运算*/
+    .func(100px);
+    background-color: @bg;
+    .select{//嵌套
+        color:@fontColor;
+    }
+    &:after{
+        content: '';
+    }
+    @media @min768 {
+        background-color: aqua;
+        
+    }
+
+}
+.func(@px){//函数
+    height: @px;
+}
+

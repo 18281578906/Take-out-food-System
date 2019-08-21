@@ -1,0 +1,739 @@
+{
+    "name": "fooddata",
+    "shop": [{
+            "shopId": "001",
+            "foodList": [{
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-1.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a2",
+                    "foodName": "青椒炒肉2",
+                    "img": "../../../static/img/food-2.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a3",
+                    "foodName": "青椒炒肉3",
+                    "img": "../../../static/img/food-3.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a4",
+                    "foodName": "青椒炒肉4",
+                    "img": "../../../static/img/food-4.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a5",
+                    "foodName": "青椒炒肉5",
+                    "img": "../../../static/img/food-5.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a6",
+                    "foodName": "青椒炒肉6",
+                    "img": "../../../static/img/food-6.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a7",
+                    "foodName": "青椒炒肉7",
+                    "img": "../../../static/img/food-7.jpg",
+                    "foodType": "素菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a8",
+                    "foodName": "青椒炒肉8",
+                    "img": "../../../static/img/food-1.jpg",
+                    "foodType": "素菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                }
+            ]
+
+        },
+        {
+            "shopId": "002",
+            "foodList": [{
+                    "foodId": "a9",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-1.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a10",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-2.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a11",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-3.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a12",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-4.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a13",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-5.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a14",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-6.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a15",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-7.jpg",
+                    "foodType": "素菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a16",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-1.jpg",
+                    "foodType": "素菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                }
+            ]
+        },
+        {
+            "shopId": "003",
+            "foodList": [{
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-1.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-2.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-3.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-4.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-5.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-6.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-7.jpg",
+                    "foodType": "素菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-1.jpg",
+                    "foodType": "素菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                }
+            ]
+        }, {
+            "shopId": "004",
+            "foodList": [{
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-1.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-2.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-3.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-4.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-5.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-6.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-7.jpg",
+                    "foodType": "素菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-1.jpg",
+                    "foodType": "素菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                }
+            ]
+        }, {
+            "shopId": "005",
+            "foodList": [{
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-1.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-2.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-3.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-4.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-5.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-6.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-7.jpg",
+                    "foodType": "素菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-1.jpg",
+                    "foodType": "素菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                }
+            ]
+        }, {
+            "shopId": "006",
+            "foodList": [{
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-1.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-2.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-3.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-4.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-5.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-6.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-7.jpg",
+                    "foodType": "素菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-1.jpg",
+                    "foodType": "素菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                }
+            ]
+        }, {
+            "shopId": "007",
+            "foodList": [{
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-1.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-2.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-3.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-4.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-5.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-6.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-7.jpg",
+                    "foodType": "素菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-1.jpg",
+                    "foodType": "素菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                }
+            ]
+        }, {
+            "shopId": "008",
+            "foodList": [{
+                    "foodId": "a1",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-1.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a2",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-2.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a3",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-3.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a4",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-4.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a5",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-5.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a6",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-6.jpg",
+                    "foodType": "荤菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a7",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-7.jpg",
+                    "foodType": "素菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                },
+                {
+                    "foodId": "a8",
+                    "foodName": "青椒炒肉",
+                    "img": "../../../static/img/food-1.jpg",
+                    "foodType": "素菜",
+                    "kouwei": ["香辣", "青椒"],
+                    "kecun": 52,
+                    "price": 20,
+                    "yuexiao": 50,
+                    "zan": 2
+                }
+            ]
+        }
+
+
+    ]
+
+}
