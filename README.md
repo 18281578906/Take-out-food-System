@@ -28,3 +28,19 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+效果图
+------
+![](https://github.com/18281578906/Take-out-food-System-Vue-project-/blob/master/static/%E6%95%88%E6%9E%9C%E5%9B%BE/index.png)
+![](https://github.com/18281578906/Take-out-food-System-Vue-project-/blob/master/static/%E6%95%88%E6%9E%9C%E5%9B%BE/shop.png)
+![](https://github.com/18281578906/Take-out-food-System-Vue-project-/blob/master/static/%E6%95%88%E6%9E%9C%E5%9B%BE/cart.png)
+![](https://github.com/18281578906/Take-out-food-System-Vue-project-/blob/master/static/%E6%95%88%E6%9E%9C%E5%9B%BE/home.png)
+![](https://github.com/18281578906/Take-out-food-System-Vue-project-/blob/master/static/%E6%95%88%E6%9E%9C%E5%9B%BE/login.png)
+![](https://github.com/18281578906/Take-out-food-System-Vue-project-/blob/master/static/%E6%95%88%E6%9E%9C%E5%9B%BE/register.png)
+
+
+
+开发环境
+------
+vue全家桶+element-ui
