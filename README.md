@@ -43,4 +43,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 开发环境
 ------
-vue全家桶+element-ui
+vue全家桶
+element-ui(部分页面)
+flex布局
