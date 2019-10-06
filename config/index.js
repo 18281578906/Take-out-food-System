@@ -11,7 +11,8 @@ module.exports = {
         //加入以下
         proxyTable: {
             '/api': {
-                target: 'https://yun.tim.qq.com', //设置你调用的接口域名和端口号.别忘了加http
+                target: 'static/php', //设置你调用的接口域名和端口号.别忘了加http
+                secure: false,
                 changeOrigin: true, //允许跨域
                 pathRewrite: {
                     '^/api': ''
