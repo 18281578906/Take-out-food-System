@@ -6,16 +6,24 @@ import router from './router'
 import ElementUI from 'element-ui'
 // import fastClick from 'fastclick'
 import 'element-ui/lib/theme-chalk/index.css'
-Vue.use(ElementUI)
-Vue.config.productionTip = false
-    //初始化FastClick实例。在页面的DOM文档加载完成后
-    // fastClick.attach(document.body);
-    /* eslint-disable no-new */
-global.API_PROXY = 'http://bird.ioliu.cn/v1/?url='
 import store from './store/store.js'
+import VueI18n from 'vue-i18n'
+Vue.use(ElementUI)
+Vue.use(VueI18n)
+Vue.config.productionTip = false
+const i18n = new VueI18n({
+    locale: 'zh-CN',
+    messages: {
+        'zh-CN': require('./common/lang/en'),
+        'en-US': require('./common/lang/en')
+    }
+})
+
+
 new Vue({
     el: '#app',
     render: h => h(App),
+    i18n,
     router,
     store,
     components: { App },
