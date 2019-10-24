@@ -35,12 +35,13 @@ var mutations = {
         localStorage.setItem('cartFood', JSON.stringify(cartFood));
     },
     deleteCartFood(state, arr) {
+
         state.cartList.push(arr);
         state.cartFood = [];
         localStorage.setItem('cartFood', null);
         localStorage.setItem('cartList', JSON.stringify(state.cartList));
-
     },
+
 
 
 }

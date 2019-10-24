@@ -14,7 +14,7 @@ Vue.config.productionTip = false
 const i18n = new VueI18n({
     locale: 'zh-CN',
     messages: {
-        'zh-CN': require('./common/lang/en'),
+        'zh-CN': require('./common/lang/zh'),
         'en-US': require('./common/lang/en')
     }
 })

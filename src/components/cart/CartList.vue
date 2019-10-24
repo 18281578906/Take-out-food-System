@@ -38,7 +38,8 @@ export default {
          totalPrice:0,
          shop:[],
          arr:[],
-         show:true
+         show:true,
+         gettime:'0000-00-00 00:00:00'
         }
     },
     mounted(){           
@@ -95,14 +96,26 @@ export default {
             if(this.shop.length!==0&&this.arr.length==0){
                 this.arr=this.shop;
             }
-            console.log(this.arr)
+                console.log(this.arr);         
+                this.arr.push({ "bookTime":  this.getTime() ,"totalPrice":this.totalPrice});
                 this.$store.commit('deleteCartFood',this.arr);
                 alert("结算成功！");
                 this.shop=[];
                 this.totalPrice=0;
                 this.show=false;
                 
-        }
+        },       
+        getTime:function(){
+            var _this = this;
+            let yy = new Date().getFullYear();
+            let mm = new Date().getMonth()+1;
+            let dd = new Date().getDate();
+            let hh = new Date().getHours();
+            let mf = new Date().getMinutes()<10 ? '0'+new Date().getMinutes() : new Date().getMinutes();
+            let ss = new Date().getSeconds()<10 ? '0'+new Date().getSeconds() : new Date().getSeconds();
+            _this.gettime = yy+'-'+mm+'-'+dd+' '+hh+':'+mf+':'+ss;
+             return _this.gettime;
+            },
     } 
     }
 </script>

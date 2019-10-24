@@ -13,8 +13,7 @@
                <div class="user" v-show="!($store.state.flag)">
                      <p class="login" @click="logOut">  退出登录</p>
                </div>
-             <div class="phone"><p><i class="el-icon-phone-outline"></i> {{this.$store.state.phone}}</p></div>
-                
+             <div class="phone"><p><i class="el-icon-phone-outline"></i><a :href="'tel:' + this.$store.state.phone">{{this.$store.state.phone}}</a></p></div>               
             </div>
         </el-col>
       </el-row>
