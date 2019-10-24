@@ -46,7 +46,9 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 vue全家桶
 element-ui(部分页面)
 flex布局
-
+构建工具
+------
+ESLint+Prettier 统一前端代码风格: ![](https://juejin.im/post/5c662b47f265da2dcf626eac)
 实现功能
 ------
 1.多语言处理
