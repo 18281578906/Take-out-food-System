@@ -3,10 +3,10 @@
         <div class="search"><i class="el-icon-search"></i></div>
         <div class="title">  <h3 >糕点外卖</h3></div>   
        <div class="user" v-show="$store.state.flag">
-           <router-link to="/login">{{$t('m.login')}}/</router-link>
-           <router-link to="/register">注册</router-link> 
-        <button @click="changeLangEvent">切换语言</button> 
-               </div>
+           <router-link to="/login">{{$t('m.Login_Name')}}</router-link>
+           <router-link to="/register">/{{$t('m.Register_Name')}}</router-link> 
+             <a @click="changeLangEvent">主题语言</a> 
+     </div>
     </div>
 </template>
 <script>
@@ -14,45 +14,46 @@
         name:'Header',
          data(){
             return{
-                  lang: 'zh_CN',//select选中的值
-
+                  lang: 'zh-CN',//select选中的值
             }
-
         },
         methods: {
             //切换语言
          changeLangEvent() {
+             
             this.$confirm('确定切换语言吗?', '提示', {
                 confirmButtonText: '确定',
                 cancelButtonText: '取消',
                 type: 'warning'
                 }).then(() => {                   
                 if (this.lang === 'zh-CN' ) {
-                    console.log(this.lang);
                     this.lang = 'en-US';
                     this.$i18n.locale = this.lang;//关键语句
+                    this.$message({
+                    message:'change success ！',
+                    type: 'info',});
                 }else {
-                    console.log(this.lang);
                     this.lang = 'zh-CN';
                     this.$i18n.locale = this.lang;//关键语句
+                    this.$message({
+                    message:'切换成功！',
+                    type: 'info',});
                 }
                 }).catch(() => {
                 this.$message({
+                    message:'操作取消！',
                     type: 'info',
                 });          
                 });
 
     },
-
-
     }
     }
 </script>
 <style scoped>
     i {
         font-size: 20px;
-    }
-    
+    }    
     .header {
         height: 3rem;
         line-height: 3rem;
