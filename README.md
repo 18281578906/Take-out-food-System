@@ -46,3 +46,9 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 vue全家桶
 element-ui(部分页面)
 flex布局
+
+实现功能
+------
+1.多语言处理
+2.手机端点击30ms延迟问题处理
+
