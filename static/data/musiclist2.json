@@ -1,9 +1,0 @@
-{
-    "albums":[
-        {
-            "name":"飙升榜",
-            "id":"123456",
-            "bg":"/static/img/soar_music.jpg"
-        }
-    ]
-}
