@@ -98,33 +98,34 @@
   </div>
 </template>
 <script>
-import Axios from 'axios'
+import Axios from "axios";
 export default {
   data() {
     return {
       order1: true,
       order2: false,
       order3: false,
-      shopId: '',
+      shopId: "",
       shop: []
-    }
+    };
   },
   mounted() {
-    Axios.get('../../../static/data/shopList.json').then(res => {
-      this.shopId = this.$route.params.shopId;//参数  shopId
-      for (var item of res.data.shop) {
-        if (item.shopId === this.shopId) {
-          this.shop = item;
-          console.log(item)
+    Axios.get("../../../static/data/shopList.json")
+      .then(res => {
+        this.shopId = this.$route.params.shopId; //参数  shopId
+        for (var item of res.data.shop) {
+          if (item.shopId === this.shopId) {
+            this.shop = item;
+            console.log(item);
+          }
         }
-      }
-    }).catch(err => {
-      console.log(err)
-    });
-
+      })
+      .catch(err => {
+        console.log(err);
+      });
   },
   methods: {
-    clickChange: function (num) {
+    clickChange: function(num) {
       if (num === 1) {
         this.order1 = true;
         this.order2 = false;
@@ -140,15 +141,12 @@ export default {
         this.order2 = false;
         this.order3 = true;
       }
-
     },
-    backTo: function () {
+    backTo: function() {
       history.back();
     }
-
   }
-
-}
+};
 </script>
 <style scoped>
 .header i {
