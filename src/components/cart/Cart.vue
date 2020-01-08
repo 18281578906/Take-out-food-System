@@ -1,22 +1,26 @@
 <template>
-    <div>
-        <header-common></header-common>  
-        <router-view></router-view>
-         <footer-common></footer-common>   
-    </div>
+  <div>
+    <Title-common v-bind:titleName="titleName"></Title-common>
+    <router-view></router-view>
+    <footer-common></footer-common>
+  </div>
 </template>
 <script>
-import HeaderCommon from '../common/Header'
-import FooterCommon from '../common/Footer'
-
+import HeaderCommon from "../common/Header";
+import FooterCommon from "../common/Footer";
+import TitleCommon from "../common/Title";
 export default {
-    components:{
-        HeaderCommon,
-        FooterCommon
-    }
-    
-}
+  data() {
+    return {
+      titleName: this.$t("m.TITLE_NAME_FOR_CART")
+    };
+  },
+  components: {
+    HeaderCommon,
+    FooterCommon,
+    TitleCommon
+  }
+};
 </script>
 <style scoped>
-
 </style>

@@ -1,6 +1,7 @@
 <template>
   <div class="typeList">
     <div class="shop">
+
       <ul id="ul">
         <li v-for="(item,index) in shop"
           :key="index"
@@ -41,22 +42,21 @@
   </div>
 </template>
 <script>
-import Axios from 'axios'
+import Axios from "axios";
 export default {
-  name: 'FoodList',
+  name: "FoodList",
   data() {
     return {
       totalPrice: 0,
       shop: [],
       arr: [],
       show: true,
-      gettime: '0000-00-00 00:00:00'
-    }
+      gettime: "0000-00-00 00:00:00"
+    };
   },
   mounted() {
     this.load();
-    if (this.$store.state.cartFood.length === 0)
-      this.show = false;
+    if (this.$store.state.cartFood.length === 0) this.show = false;
   },
   methods: {
     load() {
@@ -65,21 +65,21 @@ export default {
       for (var i = 0; i < list.length; i++) {
         this.totalPrice += list[i].price * list[i].num;
       }
-
     },
-    addClick: function (foodId, flag) {
+    addClick: function(foodId, flag) {
       var num = document.getElementById(foodId);
       var number = parseInt(num.innerText);
       var ul = document.getElementById("ul");
-      var price = parseInt(document.getElementsByClassName('price')[0].innerText.split('$')[1]);
+      var price = parseInt(
+        document.getElementsByClassName("price")[0].innerText.split("$")[1]
+      );
       if (flag) {
         number++;
         num.innerText = number;
         this.totalPrice += price;
-      }
-      else {
+      } else {
         var par = document.getElementsByClassName(foodId)[0];
-        console.log(par)
+        console.log(par);
         if (number === 0) {
           par.remove();
           this.arr = [];
@@ -98,38 +98,42 @@ export default {
       var data = {
         foodId: foodId,
         number: number
-      }
+      };
       this.arr = [];
       this.arr = this.shop;
-      this.$store.commit('addAndRemoveCartFood', data);
-
+      this.$store.commit("addAndRemoveCartFood", data);
     },
-    payMoney: function () {
+    payMoney: function() {
       if (this.shop.length !== 0 && this.arr.length == 0) {
         this.arr = this.shop;
       }
       console.log(this.arr);
-      this.arr.push({ "bookTime": this.getTime(), "totalPrice": this.totalPrice });
-      this.$store.commit('deleteCartFood', this.arr);
+      this.arr.push({ bookTime: this.getTime(), totalPrice: this.totalPrice });
+      this.$store.commit("deleteCartFood", this.arr);
       alert("结算成功！");
       this.shop = [];
       this.totalPrice = 0;
       this.show = false;
-
     },
-    getTime: function () {
+    getTime: function() {
       var _this = this;
       let yy = new Date().getFullYear();
       let mm = new Date().getMonth() + 1;
       let dd = new Date().getDate();
       let hh = new Date().getHours();
-      let mf = new Date().getMinutes() < 10 ? '0' + new Date().getMinutes() : new Date().getMinutes();
-      let ss = new Date().getSeconds() < 10 ? '0' + new Date().getSeconds() : new Date().getSeconds();
-      _this.gettime = yy + '-' + mm + '-' + dd + ' ' + hh + ':' + mf + ':' + ss;
+      let mf =
+        new Date().getMinutes() < 10
+          ? "0" + new Date().getMinutes()
+          : new Date().getMinutes();
+      let ss =
+        new Date().getSeconds() < 10
+          ? "0" + new Date().getSeconds()
+          : new Date().getSeconds();
+      _this.gettime = yy + "-" + mm + "-" + dd + " " + hh + ":" + mf + ":" + ss;
       return _this.gettime;
-    },
+    }
   }
-}
+};
 </script>
 <style scoped>
 .increat,
